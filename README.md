@@ -36,6 +36,7 @@ Relationships discovered beetween processed parquets.
 
 ## Notes
 [1] I'm uploading data in GitHub with the sole purpose to perform tests quickly, by only downloading the entire repository, I'm aware that is a bad practice. 
+
 [2] Normal productive directory structures have a directory named notebooks (and src for scripts), but to be practical, I put the notebook outside to run it quickly.
 
 
