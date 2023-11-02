@@ -14,6 +14,7 @@ The dataset have 6 files with \*.csv extension (added in "data/raw" directory<su
 - worldometer_data.csv
 
 ## Basic Process Structure
+- The process only have one notebook named PROCESS.ipynb<sup>[2]</sup>.
 - I'm using classes to differentiate between various processes, such as schema definition and renaming.
     - **LineToRow**: Converter methods for each csv file, assuming that the input columns of the CSVs always come in the same order.
     - **FileSchemas**: Schemas for each csv file.
@@ -35,8 +36,6 @@ Relationships discovered beetween processed parquets.
 
 ## Notes
 [1] I'm uploading data in GitHub with the sole purpose to perform tests quickly, by only downloading the entire repository, I'm aware that is a bad practice. 
-
-
-
+[2] Normal productive directory structures have a directory named notebooks (and src for scripts), but to be practical, I put the notebook outside to run it quickly.
 
 
