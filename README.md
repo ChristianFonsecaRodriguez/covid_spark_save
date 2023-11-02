@@ -1,8 +1,8 @@
-# CSV TO PARQUET SAVING PROCESS FOR COVID-19 Dataset
+# CSV to Parquet saving process for COVID-19 Dataset
 Link: https://www.kaggle.com/datasets/imdevskp/corona-virus-report
 
 ## Resources
-I'm using a docker image for pyspark: https://hub.docker.com/r/jupyter/pyspark-notebook
+I'm using a Docker image to run PySpark.: https://hub.docker.com/r/jupyter/pyspark-notebook
 
 ## Entry Files
 The dataset have 6 files with \*.csv extension (added in "data/raw" directory<sup>[1]</sup>).
