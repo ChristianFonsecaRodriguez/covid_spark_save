@@ -20,7 +20,7 @@ The dataset have 6 files with \*.csv extension (added in "data/raw" directory<su
     - **NormalizeColumns**: Normalizing methods for each csv file.
 
 - The main class is called **BaseDataProcessor**, which requires only three parameters for instantiation: **name** (the name of the process, which enables the use of various methods from other classes), **file_path_input** (the name of the CSV file including the extension), and **file_path_output** (the output directory where the Parquet partitions are stored).
-- 
+
 ![Classes/Inputs/Outputs Diagram](/images/structure.png)
 
 ## Output Files
@@ -30,6 +30,7 @@ The process for saving CSV files as Parquet employs both RDDs and spark.read to 
 
 ## DER
 Relationships discovered beetween processed parquets.
+
 ![DER for output parquets](/images/der.png)
 
 ## Notes
